@@ -1,0 +1,212 @@
+
+.header-container {
+    padding: 24px 192px 24px 192px;
+}
+.header-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0;
+    margin-bottom: 24px;
+    background-color: #ffff;
+}
+.head-logo-name {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    height: 74px;
+/* Автолейаут */
+    padding: 0px;
+    margin-top: 0;
+}
+.logo-name {
+    color: rgb(17, 24, 39);
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+}
+.header-currency-phone {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+}
+.header-currency {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.currency-text {
+    line-height: 24px;
+    padding: 0;
+    margin: 0;
+    color: rgb(17, 24, 39);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: right;
+}
+.vectir {
+    width: 1px;
+    height: 74px;
+    background: rgb(139, 92, 246);
+    transform: translateY(px);
+}
+.header-phone {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+.header-phone-text {
+    margin: 0 1px 4px 1px;
+    color: rgb(17, 24, 39);
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 40px;
+}
+.header-phone-text2 {
+    margin-bottom: 1px;
+    color: rgb(17, 24, 39);
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 32px;
+}
+/* кнопка */
+.header__burger-btn {
+    display: none;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: white;
+}
+.header__burger-btn span {
+    position: absolute;
+    width: 24px;
+    height: 4px;
+    border-radius: 100px;
+    background-color: rgb(167, 139, 250);
+    left: 8px;
+}
+.header__burger-btn span:nth-child(1) {
+    transform: translateY(-6px);
+}
+.header__burger-btn span:nth-child(3) {
+    transform: translateY(6px);
+}
+/* кнопка конец */
+.header-nav-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.nav-list {
+    display: flex;
+    gap: 24px;
+}
+.nav-linc {
+    color: rgb(17, 24, 39);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.nav-linc:hover {
+    color: rgb(139, 92, 246);
+}
+.nav-linc1 {
+    color: rgb(139, 92, 246);
+    border-bottom: 2px dashed rgb(139, 92, 246);
+}
+.header-currency1 {
+    display: none;
+}
+@media (max-width:1536px) {
+    .header-container {
+        padding: 24px 256px 24px 256px;
+    }
+    .header-phone-text {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .header-phone-text2 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+}
+@media (max-width:1480px) {
+    .header-container {
+        padding: 24px 128px 24px 128px;
+    }
+    .header-currency {
+        display: none;
+    }
+    .header-currency1 {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        margin-top: 12px;
+    }
+    .currency-text {
+        width: 232px;
+        max-width: 232px;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+    }
+    .header-nav-btn {
+        border-top: 2px solid rgb(167, 139, 250);
+        border-bottom: 2px solid rgb(167, 139, 250);
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    .vectir {
+        display: none;
+    }
+}
+@media (max-width:850px) {
+    .header-container {
+        height: 86px;
+        position: relative;
+        transition: all 0.9s ease;
+        padding: 8px 60px 8px 0px
+    }
+    .header-info {
+        margin-left: 60px;
+        margin-bottom: 0px;
+        z-index: 3;
+    }
+    .fff {
+        width: 850px;
+        padding: 12px 60px 0 60px;
+        background-color: white;
+        position: absolute;
+        z-index: -1;
+        display: grid;
+        overflow: hidden;
+        grid-template-rows: 0fr;
+        transition: grid-template-rows 900ms ease;
+    }
+    .header.open .header-container .fff {
+        max-width: 816px;
+        z-index: 1;
+        border-radius: 0px 0px 16px 16px;
+        grid-template-rows: 1fr;
+    }
+    .header.open .header-nav-btn{
+        transform: 100%;
+    }
+    .header.open .header-currency1{
+        transform: 100%;
+    }
+    .header-currency1 {
+        justify-content: space-between;
+    }
+    .header__burger-btn {
+        display: block;
+    }
+}

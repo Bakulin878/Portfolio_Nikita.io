@@ -1,0 +1,36 @@
+/* Header */
+.header {
+    height: 80px;
+    border-bottom: 1px solid #e4e4e4;
+}
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+.nav {
+    margin-right: 40px;
+}
+.nav-list {
+    display: flex;
+    gap: 52px;
+    margin: auto;  
+}
+.nav-item {
+    font-size: 15px;
+    line-height: 1; 
+}
+.nav-link {
+    font-size: 15px;
+    line-height: 1;
+    color: rgb(28, 28, 28);
+    transition: color .3s ease;
+}
+.nav-link:hover {
+    color:  rgb(49, 114, 185);
+}
+.nav-item.is-active .nav-link {
+    color: rgb(49, 114, 185);
+    border-bottom: 2px solid rgb(49, 114, 185);
+}

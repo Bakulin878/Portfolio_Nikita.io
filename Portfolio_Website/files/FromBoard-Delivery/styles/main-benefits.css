@@ -1,0 +1,73 @@
+.section-benefits-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+}
+.section-benefits-item {
+    display: flex;
+    width: 496px;
+    height: 184px;
+    padding: 24px;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+.benefits-logo {
+    /* margin: 24px 12px 24px 24px; */
+    /* margin: 0 12px; */
+    width: 136px;
+    height: 136px;
+    justify-content: center;
+}
+.logo-notepad {
+    transform: translateY(20.33px);
+}
+.logo-box {
+    transform: translateY(20.33px);
+}
+.logo-car {
+    transform: translateY(34px);
+}
+.logo-medal {
+    transform: translateY(8px);
+}
+.logo-pc {
+    transform: translateY(25px);
+}
+.logo-basket {
+    transform: translateY(23px);
+}
+.section-benefits-item-info {
+    padding-top: 16px;
+    padding-left: 12px;
+}
+.connection-benefits-item-heading {
+    color: rgb(17, 24, 39);
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+}
+.connection-benefits-item-description {
+    color: rgb(17, 24, 39);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 12px;
+}
+@media (max-width:1525px) {
+    .section-benefits-item {
+        display: flex;
+    width: 372px;
+    height: 140px;
+        padding: 0;
+    }
+    .section-benefits-item-info {
+        width: 251.2px;
+    }
+    .connection-benefits-item-heading {
+        font-size: 20px;
+        line-height: 28px;
+    }
+}

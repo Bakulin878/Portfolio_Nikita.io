@@ -1,0 +1,114 @@
+.hero {
+  /* display: flex; */
+  /* justify-content: center; */
+}
+.wrapper {
+}
+.hero__container {
+  /* max-width: 2560px; */
+  /* height: 420px; */
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-between;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 186px;
+  margin-bottom: 735px;
+}
+.hero__social {
+  display: flex;
+  flex-direction: column;
+  transform: translateY(115px);
+  /* transform: rotate(90deg); */
+  /* transform: translateY(-3px); */
+}
+.social {
+}
+.social__text {
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 700;
+  /* line-height: 27px; */
+  letter-spacing: 0px;
+  /* text-align: ; */
+  /* padding-bottom: 100px; */
+  transform: translateX(-32px) rotate(90deg);
+}
+.social__link {
+  /* transform: rotate(90deg); */
+  padding-bottom: 30px;
+  transform: translateY(49px);
+}
+.hero__content {
+}
+.content {
+}
+.content__slogan {
+}
+.slogan {
+  display: flex;
+  align-items: center;
+  margin-bottom: 32px;
+}
+.slogan__vector {
+  display: flex;
+  align-self: center;
+  margin-right: 32px;
+  width: 72px;
+  height: 2px;
+  background: rgb(251, 215, 132);
+}
+.slogan__text {
+  color: rgb(251, 215, 132);
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 27px;
+  letter-spacing: 6px;
+  text-align: left;
+  text-transform: uppercase;
+}
+.content__title {
+}
+.title {
+  max-width: 950px;
+}
+.title__text {
+  color: rgb(255, 255, 255);
+  font-family: Playfair Display;
+  font-size: 88px;
+  font-weight: 600;
+  line-height: 100px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+  max-width: 919px;
+}
+.content__control {
+}
+.control {
+  margin-top: 32px;
+}
+.control__link {
+  display: flex;
+}
+.control__text {
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding-right: 4px;
+}
+.control__img {
+  transform: translateY(-3px);
+}
+.hero__slider {
+}
+.slider {
+}
+.slider__ {
+}

@@ -1,0 +1,119 @@
+/* formular-black-trial */
+@font-face {
+  font-display: swap;
+  font-family: 'formular';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/formular-black-trial.otf'); 
+}
+/* formular-bold-trial */
+@font-face {
+  font-display: swap;
+  font-family: 'formular';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/formular-bold-trial.otf'); 
+}
+/* formular-light-trial */
+@font-face {
+  font-display: swap;
+  font-family: 'formular';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/formular-light-trial.otf'); 
+}
+/* formular-regular-trial */
+@font-face {
+  font-display: swap;
+  font-family: 'formular';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/formular-regular-trial.otf');
+}
+/* Общие стили */   
+* {
+  box-sizing: border-box ;
+}
+a {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+}
+html {
+  font-family:'formular';
+}
+.main {
+  background: rgb(229, 231, 235);
+  padding-bottom: 72px;
+  padding-top: 72px;
+}
+.container {
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 192px;
+  padding-right: 192px;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 28px 10px 28px;
+  background: rgb(139, 92, 246);
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  color: rgb(249, 250, 251);
+}
+.text-center {
+  text-align: center;
+  color: rgb(17, 24, 39);
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 36px;
+}
+@media (max-width:1536px) {
+  .main {
+    padding-bottom: 48px;
+    padding-top: 48px;
+  }
+  .container {
+    padding-left: 255px;
+    padding-right: 255px;
+  }
+}
+@media (max-width:1480px) {
+  .container {
+    padding-left: 128px;
+    padding-right: 128px;
+}
+}
+@media (max-width:768px) {
+  .main {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .container {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+}
+@media (max-width:850px) {
+  .main {
+    z-index: -2;
+  }
+}

@@ -1,0 +1,88 @@
+/* open-sans-300 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/open-sans-v40-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* open-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/open-sans-v40-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* open-sans-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/open-sans-v40-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* Общие стили */
+* {
+  box-sizing: border-box ;
+}
+
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+}
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.btn {
+  display: inline-block;
+  padding: 15px 35px 15px 35px;
+  font-size: 15px;
+  line-height: 1;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #ffff;
+  background: rgb(49, 114, 185);
+  border-radius: 3px;
+  justify-content: center;
+  align-items: center;
+  transition: background-color .3s ease;
+  cursor: pointer;
+}
+.btn:hover {
+  background: rgb(113, 167, 226);
+}
+.btn.btn-big {
+  padding: 20px 60px;
+}
+.text-center {
+  text-align: center;
+}
+.section-heading {
+  margin-top: 0;
+  margin-bottom: 21px;
+  font-size: 36px;
+  line-height: 1.3;
+  font-weight: 300;
+  color: rgb(28, 28, 28);;
+}
+.section-description {
+  margin-top: 0;
+  font-size: 16px;
+  line-height: 1.31;
+  color: rgb(120, 120, 120);;
+}

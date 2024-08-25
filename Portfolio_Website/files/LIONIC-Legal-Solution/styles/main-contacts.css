@@ -1,0 +1,63 @@
+/* Contacts */
+.section-contacts {
+    padding-top: 87px;
+    padding-bottom: 160px;
+    border-bottom: 1px solid #e4e4e4;
+}
+.section-heading {
+    margin-bottom: 40px;
+    font-size: 36px;
+    line-height: 130%;
+    font-weight: 300;
+    color: rgb(28, 28, 28);
+}
+.section-contacts-list {
+    margin-top: 43px;
+    display: flex;
+}
+.section-contacts-item {
+    flex: 1 1 33.33%;
+}
+.section-contacts-icon {
+    display: block;
+    margin-bottom: 25px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: auto 100%;
+    background-color: transparent;
+    margin-bottom: 22px;
+}
+.section-contacts-icon-gps {
+    background-image: url('/images/location_on.png');
+}
+.section-contacts-icon-phone {
+    background-image: url('/images/phone.png');
+}
+.section-contacts-icon-mail {
+    background-image: url('/images/mail.png');
+}
+.section-contacts-heading {
+    display: block;
+    margin-bottom: 32px;
+    font-size: 17px;
+    line-height: 1;
+    font-weight: 600;
+    color: rgb(28, 28, 28);
+}
+.section-contacts-info {
+    max-width: 250px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 400;
+    color: rgb(128, 128, 128);
+}
+.section-contacts-link {
+    color: rgb(128, 128, 128);
+    transition: color .3s ease;
+}
+.section-contacts-link:hover {
+    color: rgb(113, 167, 226);
+    cursor: pointer;
+}

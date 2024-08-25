@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio_Nikita</title>
+  <meta name="description" content="Я веб-разработчик и HTML верстальщик с опытом создания адаптивных и функциональных веб-сайтов. Мое портфолио демонстрирует мои навыки в верстке, использовании HTML, CSS и JavaScript для создания привлекательных и удобных пользовательских интерфейсов.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="Portfolio_Nikita">
+  <meta property="og:title" content="Web-разработчик и HTML верстальщик">
+  <meta property="og:description" content="Мое портфолио демонстрирует мои навыки в верстке, использовании HTML, CSS и JavaScript для создания привлекательных и удобных пользовательских интерфейсов.">
+  <meta property="og:image:type" content="images/photo.jpeg"> <!-- og:image -->
+  <meta property="og:image:width" content="300"/>
+  <meta property="og:image:height" content="300"/>
+  <meta property="og:image:type" content="images/photo.webp"> <!-- og:image -->
+  <meta property="og:image:width" content="245"/>
+  <meta property="og:image:height" content="245"/>
+  <!-- <link rel="icon" href="images/favicon.png"> -->
+  <!-- <link rel="icon" href="images/favicon.ico" sizes="16x16"> -->
+  <!-- <link rel="icon" type="image/x-icon" href="images/favicon.svg"> -->
+  <link rel="icon" type="image/x-icon" href="images/favicon/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/favicon.png">
+
+  <link rel="stylesheet" href="css/style.min.css?_v=20240825230046">
+</head>
+
+<body>
+  <header class="header">
+  <div class="container">
+    <div class="header__row">
+      <picture><source srcset="images/photo_name.webp" type="image/webp"><img src="images/photo_name.jpg" width="540px" alt="Photo" class="header__img"></picture>
+      <div class="header__desc">
+        <h1 class="header__title">Никита Сергеевич</h1>
+        <p class="header__text">фрилансер, веб-разработчик,<br> создание сайтов</p>
+        <div class="header__btns">
+          <a href="#portfolio" class="btn">Портфолио</a>
+          <a href="#contacts" class="btn__outline">Контакты</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <video class="header__video" autoplay muted loop>
+    <source type="video/mp4" src="./video/mixkit-software-developer-working-while-drinks-coffee-1730-hd-ready.mp4">
+  </video>
+</header>
+  <main class="main">
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <h2 class="portfolio__title">Портфолио</h2>
+        <div class="portfolio__projects">
+
+          <article class="portfolio__project">
+            <a href="./Evklid.html">
+              <picture><source srcset="images/portfolio__project/Evklid_min.webp" type="image/webp"><img class="portfolio__project-img" src="images/portfolio__project/Evklid_min.png" alt="Сайт Evklid Design Systems"></picture>
+            </a>
+            <h3 class="portfolio__project-title"><a href="./Evklid.html">Сайт Evklid Design Systems</a></h3>
+          </article>
+
+          <article class="portfolio__project">
+            <a href="./LIONIC.html">
+              <picture><source srcset="images/portfolio__project/Lionic_min.webp" type="image/webp"><img class="portfolio__project-img" src="images/portfolio__project/Lionic_min.png" alt="Сайт LIONIC-Legal-Solution"></picture>
+            </a>
+            <h3 class="portfolio__project-title"><a href="./LIONIC.html">Сайт LIONIC-Legal-Solution</a></h3>
+          </article>
+
+          <article class="portfolio__project">
+            <a href="./FromBoard.html">
+              <picture><source srcset="images/portfolio__project/FromBoard_min.webp" type="image/webp"><img class="portfolio__project-img" src="images/portfolio__project/FromBoard_min.png" alt="Сайт FromBoard-Delivery"></picture>
+            </a>
+            <h3 class="portfolio__project-title"><a href="./FromBoard.html">Сайт FromBoard-Delivery</a></h3>
+          </article>
+
+          <article class="portfolio__project">
+            <a href="./MNTN.html">
+              <picture><source srcset="images/portfolio__project/MNTN_min.webp" type="image/webp"><img class="portfolio__project-img" src="images/portfolio__project/MNTN_min.jpg" alt="Сайт Туризм по гором"></picture>
+            </a>
+            <h3 class="portfolio__project-title"><a href="./MNTN.html">Сайт Туризм по гором</a></h3>
+          </article>
+
+        </div>
+      </div>
+    </section>
+    <section class="contacts" id="contacts">
+      <div class="container">
+        <h2 class="contacts__contacts-title">Контакты</h2>
+        <div class="contacts__messangers">
+          <a class="contacts__messanger" href="https://t.me/Bakulin_878" target="_blank">
+            <img src="images/svg/telegram.svg" alt="Telegram">
+            Написать в Telegram
+          </a>
+          <a class="contacts__messanger" href="https://wa.me/qr/NP6YWXXKVVXTA1" target="_blank">
+            <img src="images/svg/whatsapp.svg" alt="WhatsApp">
+            Отправить в WhatsApp
+          </a>
+          <a class="contacts__messanger" href="https://vk.com/id226720627" target="_blank">
+            <img src="images/svg/vk.svg" alt="Вконтакте">
+            Связаться Вконтакте
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+  <div class="container">
+    <div class="footer__inner">
+      <p>© Никита Сергеевич <br>HTML верстальщик, создание сайтов Уфа</p>
+      <p><a href="https://github.com/Bakulin878" target="_blank">💻 Профиль GitHub</a></p>
+    </div>
+  </div>
+</footer>
+  <script src="js/app.min.js?_v=20240825230046"></script>
+</body>
+
+</html>

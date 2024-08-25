@@ -1,0 +1,55 @@
+/* Hero */
+.section-hero {
+    background: url(../images/Frame6.jpeg) right center no-repeat white;
+    background-size: contain; 
+}
+.section-hero__container {
+    padding-top: 113px;
+    padding-bottom: 134px;
+}
+.section-hero__content {
+    max-width: 44%;
+}
+.section-hero__heading {
+    font-size: 40px;
+    line-height: 52px;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: rgb(28, 28, 28);
+}
+.section-hero__description {
+    margin-bottom: 34px;
+    font-size: 16px;
+    line-height: 25px;
+    color: rgb(120, 120, 120);
+    /* font-weight: 400; */
+    /* text-align: center; */
+}
+.section-hero__action {
+    display: inline-block;
+}
+.section-hero-btn {
+
+}
+.section-hero__btn-description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 11px;
+    line-height: 1;
+    /* font-weight: 400; */
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(120, 120, 120);
+}
+.section-hero__ssl-icon {
+    display: inline-block;
+    width: 14px;
+    height: 17px;
+    margin-right: 10px;
+    background: url('../images/secure.svg') center center no-repeat transparent;
+    background-size: contain;
+    transform: translate(-1px);
+}

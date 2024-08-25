@@ -1,0 +1,86 @@
+@font-face {
+  font-family: "PlayfairDisplay";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/PlayfairDisplay-Regular.woff2") format("woff2"),
+       url("../fonts/PlayfairDisplay-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: "PlayfairDisplay";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../fonts/PlayfairDisplay-SemiBold.woff2") format("woff2"),
+       url("../fonts/PlayfairDisplay-SemiBold.woff") format("woff");
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/Poppins-Regular.woff2") format("woff2"),
+       url("../fonts/Poppins-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../fonts/Poppins-SemiBold.woff2") format("woff2"),
+       url("../fonts/Poppins-SemiBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/Poppins-Bold.woff2") format("woff2"),
+       url("../fonts/Poppins-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("../fonts/Poppins-ExtraBold.woff2") format("woff2"),
+       url("../fonts/Poppins-ExtraBold.woff") format("woff");
+}
+/* global */
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+  font-family:'formular';
+  scroll-behavior: smooth;
+  scroll-margin-top: 20px;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #0B1d26;
+  background-image: url(../img/BG1.webp);
+  background-repeat:no-repeat ;
+  background-size: 100%;
+}
+a {
+  text-decoration: none;
+  margin: 0;
+  padding: 0; 
+}
+p,h1,h2,h3,h4,h5 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+img {
+  max-width: 100%;
+}
+
+
