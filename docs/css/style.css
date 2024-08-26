@@ -680,11 +680,11 @@ svg {
 .footer {
   padding: 30px 0;
   background-color: #1E1E1E;
-  color: #5D5D5D;
+  color: #939393;
 }
 
 .footer a {
-  color: #5886A8;
+  color: rgba(111, 194, 255, 0.9803921569);
 }
 
 .footer__inner {
