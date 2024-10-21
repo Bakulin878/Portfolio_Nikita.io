@@ -501,6 +501,7 @@ svg {
 
 .header__img {
   border-radius: 80px;
+  pointer-events: none;
 }
 
 .header__title {
